@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.head{
+    text-align: center;
+    margin-top: 5%;
+}
+.head h1{
+     line-height:19px;
+     letter-spacing:0.38px;
+     padding-top: 1em;
+}
+.head p{
+    padding-top: 1em;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-top: 1em;
+}
+.box{
+    border: 2px solid #f8f9fa;
+    border-radius: 10px;
+    width: calc(100% / 3 - 70px);
+    text-align: center;
+
+}
+.box img{
+    width: 70%;
+    padding: 10px;
+}
+.main-1{
+    background-color: #F8D98F;
+    height: 10em;
+    text-align: center;
+    color: #fff;
+
+}
+.main-1 h1{
+    padding-top: 1em;
+
+    
+}
+.main-1 p{
+    color: #fff;
+    padding-top: 1em;
+
+}
